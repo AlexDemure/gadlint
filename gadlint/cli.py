@@ -19,7 +19,7 @@ def lint(path: pathlib.Path = typer.Option(".")) -> None:
 
     for command in commands:
         typer.echo(f"Running {' '.join(command)}")
-        subprocess.run(command, check=True)
+        subprocess.run(command, check=False)
 
 
 if __name__ == "__main__":

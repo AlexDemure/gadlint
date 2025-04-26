@@ -6,7 +6,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="gadlint",
-    version="0.0.2",
+    version="0.0.3",
     packages=find_packages(),
     package_data={
         "gadlint": ["configs/*", "configs/.isort.cfg"],
